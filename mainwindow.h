@@ -5,6 +5,7 @@
 #include "conjunto.h"
 #include "QString"
 #include "QMessageBox"
+#include <chrono>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }

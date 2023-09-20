@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>TelaPrincipal</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
@@ -164,7 +164,7 @@
       <x>460</x>
       <y>260</y>
       <width>181</width>
-      <height>111</height>
+      <height>31</height>
      </rect>
     </property>
    </widget>
@@ -174,17 +174,17 @@
       <x>460</x>
       <y>410</y>
       <width>181</width>
-      <height>111</height>
+      <height>31</height>
      </rect>
     </property>
    </widget>
    <widget class="QTextEdit" name="textEdit_selection_sort_tempo_execucoes">
     <property name="geometry">
      <rect>
-      <x>660</x>
+      <x>650</x>
       <y>260</y>
-      <width>121</width>
-      <height>111</height>
+      <width>141</width>
+      <height>31</height>
      </rect>
     </property>
    </widget>
@@ -217,10 +217,10 @@
    <widget class="QTextEdit" name="textEdit_insertion_sort_tempo_execucoes">
     <property name="geometry">
      <rect>
-      <x>660</x>
+      <x>650</x>
       <y>410</y>
-      <width>121</width>
-      <height>111</height>
+      <width>141</width>
+      <height>31</height>
      </rect>
     </property>
    </widget>

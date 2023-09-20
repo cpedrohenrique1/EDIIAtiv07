@@ -11,16 +11,16 @@ private:
     int *vetor;
     int *vetor_selection_sort;
     int *vetor_insertion_sort;
-    int tamanho_vetor;
-    int nmr_execucoes;
+    long long tamanho_vetor;
+    long long nmr_execucoes;
 public:
-    Conjunto(int tamanho_array);
+    Conjunto(long long tamanho_array);
     ~Conjunto();
-    int getTamanhoVetor() const;
+    long long getTamanhoVetor() const;
     int *getVetor() const;
     int* getVetorSelectionSort() const;
     int* getVetorInsertionSort() const;
-    int getNmrExecucoes() const;
+    long long getNmrExecucoes() const;
     void selectionSort();
     void insertionSort();
 };

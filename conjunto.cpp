@@ -1,6 +1,6 @@
 #include "conjunto.h"
 
-Conjunto::Conjunto(int tamanho_array):
+Conjunto::Conjunto(long long tamanho_array):
     vetor(0),
     vetor_selection_sort(0),
     vetor_insertion_sort(0),
@@ -25,7 +25,7 @@ Conjunto::Conjunto(int tamanho_array):
     }
 }
 
-int Conjunto::getTamanhoVetor() const{
+long long Conjunto::getTamanhoVetor() const{
     return tamanho_vetor;
 }
 
@@ -41,7 +41,7 @@ int* Conjunto::getVetorInsertionSort() const{
     return vetor_insertion_sort;
 }
 
-int Conjunto::getNmrExecucoes() const{
+long long Conjunto::getNmrExecucoes() const{
     return nmr_execucoes;
 }
 
