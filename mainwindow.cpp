@@ -19,7 +19,7 @@ void MainWindow::on_pushButton_gerar_clicked()
     try
     {
         bool ok;
-        long long tamanho_array = ui->lineEdit_qtd_elementos->text().toInt(&ok);
+        int tamanho_array = ui->lineEdit_qtd_elementos->text().toInt(&ok);
         if (!ok){
             throw QString("Quantidade de elementos inválida");
         }
